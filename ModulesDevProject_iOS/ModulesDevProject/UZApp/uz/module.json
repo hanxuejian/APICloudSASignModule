@@ -1,0 +1,17 @@
+[
+ {
+    "name":"moduleDemo",
+    "class":"UZModuleDemo",
+    "methods":["showAlert"]
+ },
+ {
+     "name":"moduleDemoSwift",
+     "class":"UZModuleDemoSwift",
+     "methods":["showAlert"]
+ },
+ {
+     "name":"SASignModule",
+     "class":"SASignModule",
+     "methods":["showSignView"]
+ }
+]

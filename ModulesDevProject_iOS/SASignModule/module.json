@@ -1,0 +1,5 @@
+ {
+     "name":"SASignModule",
+     "class":"SASignModule",
+     "methods":["showSignView"]
+ }

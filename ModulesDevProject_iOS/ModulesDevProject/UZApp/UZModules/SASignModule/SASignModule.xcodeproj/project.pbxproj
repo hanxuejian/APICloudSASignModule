@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5280A493205A641200DC1CD5 /* CabinSignView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5280A491205A640200DC1CD5 /* CabinSignView.xib */; };
+		5280A494205A641200DC1CD5 /* chacha.png in Resources */ = {isa = PBXBuildFile; fileRef = 5280A492205A640200DC1CD5 /* chacha.png */; };
+		52C99A4F205A3E0E0029BF6C /* SASignModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C99A47205A3E0E0029BF6C /* SASignModule.m */; };
+		52C99A5C205A3F4F0029BF6C /* CabinSignView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C99A55205A3F4E0029BF6C /* CabinSignView.m */; };
+		52C99A5E205A3F4F0029BF6C /* SignImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C99A5B205A3F4E0029BF6C /* SignImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		52DF36DE205A0E9100993A79 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5280A487205A637900DC1CD5 /* SASignBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SASignBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5280A489205A637900DC1CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5280A491205A640200DC1CD5 /* CabinSignView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CabinSignView.xib; sourceTree = "<group>"; };
+		5280A492205A640200DC1CD5 /* chacha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chacha.png; sourceTree = "<group>"; };
+		52C99A46205A3E0E0029BF6C /* SASignModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SASignModule.h; sourceTree = "<group>"; };
+		52C99A47205A3E0E0029BF6C /* SASignModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SASignModule.m; sourceTree = "<group>"; };
+		52C99A49205A3E0E0029BF6C /* NSDictionaryUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionaryUtils.h; sourceTree = "<group>"; };
+		52C99A4A205A3E0E0029BF6C /* UIViewControllerExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewControllerExtension.h; sourceTree = "<group>"; };
+		52C99A4B205A3E0E0029BF6C /* UZAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZAppDelegate.h; sourceTree = "<group>"; };
+		52C99A4C205A3E0E0029BF6C /* UZAppUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZAppUtils.h; sourceTree = "<group>"; };
+		52C99A4D205A3E0E0029BF6C /* UZModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZModule.h; sourceTree = "<group>"; };
+		52C99A4E205A3E0E0029BF6C /* UZURLTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZURLTask.h; sourceTree = "<group>"; };
+		52C99A54205A3F4E0029BF6C /* CabinSignView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CabinSignView.h; sourceTree = "<group>"; };
+		52C99A55205A3F4E0029BF6C /* CabinSignView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CabinSignView.m; sourceTree = "<group>"; };
+		52C99A5A205A3F4E0029BF6C /* SignImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignImageView.h; sourceTree = "<group>"; };
+		52C99A5B205A3F4E0029BF6C /* SignImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignImageView.m; sourceTree = "<group>"; };
+		52DF36E0205A0E9100993A79 /* libSASignModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSASignModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5280A484205A637900DC1CD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DF36DD205A0E9100993A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5280A488205A637900DC1CD5 /* SASignBundle */ = {
+			isa = PBXGroup;
+			children = (
+				5280A489205A637900DC1CD5 /* Info.plist */,
+			);
+			path = SASignBundle;
+			sourceTree = "<group>";
+		};
+		52C99A45205A3E0E0029BF6C /* SASignModule */ = {
+			isa = PBXGroup;
+			children = (
+				52C99A53205A3F4E0029BF6C /* View */,
+				52C99A48205A3E0E0029BF6C /* UZEngine */,
+				52C99A46205A3E0E0029BF6C /* SASignModule.h */,
+				52C99A47205A3E0E0029BF6C /* SASignModule.m */,
+			);
+			path = SASignModule;
+			sourceTree = "<group>";
+		};
+		52C99A48205A3E0E0029BF6C /* UZEngine */ = {
+			isa = PBXGroup;
+			children = (
+				52C99A49205A3E0E0029BF6C /* NSDictionaryUtils.h */,
+				52C99A4A205A3E0E0029BF6C /* UIViewControllerExtension.h */,
+				52C99A4B205A3E0E0029BF6C /* UZAppDelegate.h */,
+				52C99A4C205A3E0E0029BF6C /* UZAppUtils.h */,
+				52C99A4D205A3E0E0029BF6C /* UZModule.h */,
+				52C99A4E205A3E0E0029BF6C /* UZURLTask.h */,
+			);
+			path = UZEngine;
+			sourceTree = "<group>";
+		};
+		52C99A53205A3F4E0029BF6C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5280A491205A640200DC1CD5 /* CabinSignView.xib */,
+				5280A492205A640200DC1CD5 /* chacha.png */,
+				52C99A54205A3F4E0029BF6C /* CabinSignView.h */,
+				52C99A55205A3F4E0029BF6C /* CabinSignView.m */,
+				52C99A5A205A3F4E0029BF6C /* SignImageView.h */,
+				52C99A5B205A3F4E0029BF6C /* SignImageView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52DF36D7205A0E9000993A79 = {
+			isa = PBXGroup;
+			children = (
+				52C99A45205A3E0E0029BF6C /* SASignModule */,
+				5280A488205A637900DC1CD5 /* SASignBundle */,
+				52DF36E1205A0E9100993A79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52DF36E1205A0E9100993A79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52DF36E0205A0E9100993A79 /* libSASignModule.a */,
+				5280A487205A637900DC1CD5 /* SASignBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5280A486205A637900DC1CD5 /* SASignBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5280A48A205A637900DC1CD5 /* Build configuration list for PBXNativeTarget "SASignBundle" */;
+			buildPhases = (
+				5280A483205A637900DC1CD5 /* Sources */,
+				5280A484205A637900DC1CD5 /* Frameworks */,
+				5280A485205A637900DC1CD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SASignBundle;
+			productName = SASignBundle;
+			productReference = 5280A487205A637900DC1CD5 /* SASignBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		52DF36DF205A0E9100993A79 /* SASignModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52DF36E9205A0E9100993A79 /* Build configuration list for PBXNativeTarget "SASignModule" */;
+			buildPhases = (
+				52DF36DC205A0E9100993A79 /* Sources */,
+				52DF36DD205A0E9100993A79 /* Frameworks */,
+				52DF36DE205A0E9100993A79 /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SASignModule;
+			productName = SASignModule;
+			productReference = 52DF36E0205A0E9100993A79 /* libSASignModule.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52DF36D8205A0E9100993A79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Spring Air Lines";
+				TargetAttributes = {
+					5280A486205A637900DC1CD5 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					52DF36DF205A0E9100993A79 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 52DF36DB205A0E9100993A79 /* Build configuration list for PBXProject "SASignModule" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 52DF36D7205A0E9000993A79;
+			productRefGroup = 52DF36E1205A0E9100993A79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52DF36DF205A0E9100993A79 /* SASignModule */,
+				5280A486205A637900DC1CD5 /* SASignBundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5280A485205A637900DC1CD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5280A493205A641200DC1CD5 /* CabinSignView.xib in Resources */,
+				5280A494205A641200DC1CD5 /* chacha.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5280A483205A637900DC1CD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DF36DC205A0E9100993A79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C99A5E205A3F4F0029BF6C /* SignImageView.m in Sources */,
+				52C99A4F205A3E0E0029BF6C /* SASignModule.m in Sources */,
+				52C99A5C205A3F4F0029BF6C /* CabinSignView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5280A48B205A637900DC1CD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3556NPPACN;
+				INFOPLIST_FILE = SASignBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SpringAirlines.SASignBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos11.1;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5280A48C205A637900DC1CD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3556NPPACN;
+				INFOPLIST_FILE = SASignBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SpringAirlines.SASignBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos11.1;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		52DF36E7205A0E9100993A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos11.1;
+			};
+			name = Debug;
+		};
+		52DF36E8205A0E9100993A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos11.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52DF36EA205A0E9100993A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3556NPPACN;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/UZApp/UZEngine";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/UZApp/UZEngine";
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52DF36EB205A0E9100993A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3556NPPACN;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/UZApp/UZEngine";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/UZApp/UZEngine";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5280A48A205A637900DC1CD5 /* Build configuration list for PBXNativeTarget "SASignBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5280A48B205A637900DC1CD5 /* Debug */,
+				5280A48C205A637900DC1CD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52DF36DB205A0E9100993A79 /* Build configuration list for PBXProject "SASignModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DF36E7205A0E9100993A79 /* Debug */,
+				52DF36E8205A0E9100993A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52DF36E9205A0E9100993A79 /* Build configuration list for PBXNativeTarget "SASignModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DF36EA205A0E9100993A79 /* Debug */,
+				52DF36EB205A0E9100993A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52DF36D8205A0E9100993A79 /* Project object */;
+}
